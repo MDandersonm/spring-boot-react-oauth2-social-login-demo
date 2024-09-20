@@ -12,6 +12,7 @@ class OAuth2RedirectHandler extends Component {
     };
 
     render() {        
+        //URL에 포함된  token파라미터의 값을 추출
         const token = this.getUrlParameter('token');
         const error = this.getUrlParameter('error');
 
